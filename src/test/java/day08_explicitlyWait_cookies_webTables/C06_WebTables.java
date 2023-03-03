@@ -36,7 +36,6 @@ public class C06_WebTables extends TestBase {
         }
 
         //  5. Tabloda kac tane bos olmayan cell (data) oldugunu yazdirin
-        System.out.println("Data sayisi: "+driver.findElement(By.xpath("//div[@class='rt-tr-group']//div[@class='rt-td']")).getSize());
 
         //  6. Tablodaki satir sayisini yazdirin
         System.out.println("Satir sayisi: "+driver.findElements(By.xpath("//div[@class='rt-tr-group']")).size());
